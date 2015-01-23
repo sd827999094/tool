@@ -1,0 +1,30 @@
+<?php
+/**
+ * test.php
+ * 2014-12-02
+ *
+ * Developed by fucan <fucan@playcrab.com>
+ * Copyright (c) 2014 Playcrab Corp.
+ */
+
+$res = array();
+$numericRoot = '/data/work/testnumeric';
+$rootDir = opendir($numericRoot);
+
+//读取所有的目录文件
+while($file = readdir($rootDir)){
+	$filePath = "{$numericRoot}/{$file}";
+	if(is_file($filePath) && end(explode('.', $filePath)) == 'xlsx'){
+		$cmd = "php ~/numerictool/NumericTool.php -t 1 -f {$filePath} -v 100 -s ~/success.log -e ~/error.log\n";
+		print_r($cmd);
+		exec($cmd, $output, $res);		
+        foreach($output as $line){
+            print_r("$line\n");
+        }
+	}
+}
+return $res;
+
+
+
+

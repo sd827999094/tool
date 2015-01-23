@@ -1,0 +1,1650 @@
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/HeroQualityCost.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => HeroQualityCost.xlsx
+    [count] => 416
+    [data] => Array
+        (
+            [Id] => 100001_10
+            [heroid] => 100001
+            [quality] => 10
+            [money] => 1000
+            [itemlist] => Array
+                (
+                    [0] => 202001_5
+                    [1] => 202005_2
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/HeroTypeRate.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => HeroTypeRate.xlsx
+    [count] => 36
+    [data] => Array
+        (
+            [Id] => dps_dps
+            [attacktype] => dps
+            [defensetype] => dps
+            [rate] => 1
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/MirrorBlock.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => MirrorBlock.xlsx
+    [count] => 6
+    [data] => Array
+        (
+            [Id] => T04D01
+            [difficulty] => 1
+            [openlevel] => 35
+            [army] => Array
+                (
+                    [0] => T04D01U01
+                    [1] => T04D01U02
+                )
+
+            [cost] => 10
+            [maxroundnum] => 5
+            [scorejudge] => {"SSS":1000,"SS":800,"S":600,"A":400,"B":300,"C":200,"D":100}
+            [itemlist] => Array
+                (
+                    [0] => 200004
+                    [1] => 200005
+                    [2] => 200006
+                    [3] => 300001
+                )
+
+            [HeroExpReward] => Hero_T04D01
+            [reward] => Array
+                (
+                    [0] => T04D01U01
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/MailConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => MailConfig.xlsx
+    [count] => 2
+    [data] => Array
+        (
+            [Id] => 7001
+            [qudao] => IOS
+            [type] =>
+            [sendDate] =>
+            [expireAfterRead] =>
+            [subtype] => 0
+            [source] => 1
+            [expire] =>
+            [rewardConfigId] =>
+            [topStatus] => 0
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/LadderHighestReward.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => LadderHighestReward.xlsx
+    [count] => 11
+    [data] => Array
+        (
+            [Id] => 10
+            [reward] => 5
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/DailySignConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => DailySignConfig.xlsx
+    [count] => 5
+    [data] => Array
+        (
+            [Id] => dailySign01
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/ErrorDefine.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => ErrorDefine.xlsx
+    [count] => 2
+    [data] => Array
+        (
+            [Id] => 1001
+            [ServerKey] => PlAYER_NOT_FOUND
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/ItemConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => ItemConfig.xlsx
+    [count] => 256
+    [data] => Array
+        (
+            [Id] => 200001
+            [type] => 1
+            [subtype] => 1
+            [uselevel] => 1
+            [viplevel] => 0
+            [quality] => 2
+            [cardtype] => 1
+            [sort] => 200001
+            [maxnumber] => 9999
+            [expend] =>
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/MALL.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => MALL.xlsx
+    [count] => 7
+    [data] => Array
+        (
+            [Id] => IOS_1
+            [qudao] => IOS
+            [position] => 1
+            [price] => 20
+            [type] => 0
+            [tag] =>
+            [getnumber] => 200
+            [firstbuynumber] => 120
+            [giftnumber] => 0
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/AnthemConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => AnthemConfig.xlsx
+    [count] => 7
+    [data] => Array
+        (
+            [Id] => Anthem01
+            [BlockClass] => GirlBlock
+            [ScoreNeeded] => SSS
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/HeroRelation.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => HeroRelation.xlsx
+    [count] => 177
+    [data] => Array
+        (
+            [Id] => 100001_1
+            [type] => 1
+            [heroId] => 100001
+            [title] => 强强联合
+            [hero] => Array
+                (
+                    [0] => 100001
+                    [1] => 100002
+                    [2] => 100006
+                    [3] => 100007
+                    [4] => 100024
+                )
+
+            [relationSkill] => Relation_100001_1
+            [decType] => 1
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/LadderReward.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => LadderReward.xlsx
+    [count] => 28
+    [data] => Array
+        (
+            [Id] => 1
+            [RankReward] => RankReward1
+            [OnceWinReward] => OnceWinReward1
+            [OnceFailReward] => OnceFailReward1
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/ActivityConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => ActivityConfig.xlsx
+    [count] => 5
+    [data] => Array
+        (
+            [Id] => activity1
+            [codeType] => TASK
+            [openLevel] => 0
+            [openVipLevel] => 0
+            [timeType] => FIX_TIME
+            [timeConfig] => {"start":"2014-12-01","end":"2014-12-20"}
+            [tasks] => Array
+                (
+                    [0] => task1
+                    [1] => task2
+                    [2] => task3
+                )
+
+            [status] => 限时
+            [activityType] => 充值活动
+            [mail] => 1
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/TalentTreeConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => TalentTreeConfig.xlsx
+    [count] => 3
+    [data] => Array
+        (
+            [Id] => TalentTree1
+            [Pos] => 1
+            [Layer] => 4
+            [LevelLimit] => 20
+            [PointNum] => 0
+            [Talent] => Array
+                (
+                    [0] => 111
+                    [1] => 121
+                    [2] => 122
+                    [3] => 131
+                    [4] => 132
+                    [5] => 141
+                    [6] => 142
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/EnemyArmy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => EnemyArmy.xlsx
+    [count] => 1773
+    [data] => Array
+        (
+            [Id] => M01P01D01U01
+            [speed] => 0
+            [enemies] => Array
+                (
+                    [0] => None
+                    [1] => M01P01D01U01N02
+                    [2] => None
+                    [3] => None
+                    [4] => None
+                    [5] => None
+                )
+
+            [effects] => Array
+                (
+                )
+
+            [enemyType] => NORMAL
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/FavourUplevel.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => FavourUplevel.xlsx
+    [count] => 303
+    [data] => Array
+        (
+            [Id] => dps_0
+            [level] => 0
+            [herotype] => dps
+            [exp] => 100
+            [type] => attack
+            [attribute] => 60
+            [totalattribute] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                    [3] => 0
+                    [4] => 0
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/MirrorEnemyArmy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => MirrorEnemyArmy.xlsx
+    [count] => 12
+    [data] => Array
+        (
+            [Id] => T04D01U01
+            [speed] => 0
+            [enemies] => Array
+                (
+                    [0] => T04D01U01N01
+                    [1] => T04D01U01N02
+                    [2] => T04D01U01N03
+                    [3] => T04D01U01N04
+                    [4] => T04D01U01N05
+                    [5] => T04D01U01N06
+                )
+
+            [effects] => Array
+                (
+                )
+
+            [enemyType] => BOSS
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/HeroStarRate.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => HeroStarRate.xlsx
+    [count] => 7
+    [data] => Array
+        (
+            [Id] => 1
+            [starratio] => 2
+            [starbasenum] => 10
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/GoldEnemy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => GoldEnemy.xlsx
+    [count] => 6
+    [data] => Array
+        (
+            [Id] => T02D01U01N05
+            [type] => dps
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/StoryActionConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => StoryActionConfig.xlsx
+    [count] => 2
+    [data] => Array
+        (
+            [Id] => S01A01
+            [Type] => dialog
+            [Params] => Array
+                (
+                    [0] => S01D01
+                    [1] => S01D02
+                    [2] => S01D03
+                    [3] => S01D04
+                    [4] => S01D05
+                    [5] => S01D06
+                    [6] => S01D07
+                    [7] => S01D08
+                    [8] => S01D09
+                    [9] => S01D10
+                    [10] => S01D11
+                    [11] => S01D12
+                    [12] => S01D13
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/AdvanceNum.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => AdvanceNum.xlsx
+    [count] => 3
+    [data] => Array
+        (
+            [Id] => Advance_1
+            [index] => 1
+            [maxLevel] => 99
+            [type] => Array
+                (
+                    [0] => attack
+                    [1] => crit
+                    [2] => unblock
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/ShopConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => ShopConfig.xlsx
+    [count] => 5
+    [data] => Array
+        (
+            [Condition] => {level:3,vip:0}
+            [Positions] => Array
+                (
+                    [0] => shop1_1
+                    [1] => shop1_2
+                    [2] => shop1_3
+                    [3] => shop1_4
+                    [4] => shop1_5
+                    [5] => shop1_6
+                )
+
+            [Other7] => shop1_7
+            [Currency] => 1
+            [Price] => Array
+                (
+                    [0] => 10
+                    [1] => 10
+                    [2] => 50
+                    [3] => 50
+                    [4] => 100
+                )
+
+            [rsShow] =>
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/Translate.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => Translate.xlsx
+    [count] => 0
+    [data] =>
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/StoryDialogConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => StoryDialogConfig.xlsx
+    [count] => 13
+    [data] => Array
+        (
+            [Id] => S01D01
+            [leftshift] => 0
+            [rightshift] => 0
+            [leftheadtype] => 0
+            [rightheadtype] => 0
+            [shake] => 0
+            [soundtrack] =>
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/EliteEnemyArmy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => EliteEnemyArmy.xlsx
+    [count] => 63
+    [data] => Array
+        (
+            [Id] => M01E01U01
+            [speed] => 0
+            [enemies] => Array
+                (
+                    [0] => M01E01U01N01
+                    [1] => M01E01U01N02
+                    [2] => M01E01U01N03
+                    [3] => M01E01U01N04
+                    [4] => M01E01U01N05
+                    [5] => M01E01U01N06
+                )
+
+            [effects] => Array
+                (
+                )
+
+            [enemyType] => NORMAL
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/BlockPoint.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => BlockPoint.xlsx
+    [count] => 204
+    [data] => Array
+        (
+            [Id] => M01P01
+            [openLevel] => 1
+            [easy] => M01P01D01
+            [normal] =>
+            [hard] =>
+            [itemList] => Array
+                (
+                    [0] => 200001
+                    [1] => 200002
+                    [2] => 200003
+                    [3] => 200004
+                )
+
+            [cost] => 6
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/GoldBlock.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => GoldBlock.xlsx
+    [count] => 6
+    [data] => Array
+        (
+            [Id] => T02D01
+            [difficulty] => 1
+            [openlevel] => 30
+            [army] => Array
+                (
+                    [0] => T02D01U01
+                )
+
+            [cost] => 10
+            [maxroundnum] => 5
+            [starbuff] => 7
+            [buffnum] => 0.2
+            [scorejudge] => {"SSS":1000,"SS":800,"S":600,"A":400,"B":300,"C":200,"D":100}
+            [itemlist] => Array
+                (
+                    [0] => 200004
+                    [1] => 200005
+                    [2] => 200006
+                    [3] => 300001
+                )
+
+            [hidenBOSSpro] => 0.2
+            [hidenBOSStime] => 10
+            [hidenBOSShitnum] => 30
+            [BOSSLifeNum] => 50
+            [BOSSLifeStage] => Array
+                (
+                    [0] => 10
+                    [1] => 20
+                    [2] => 30
+                    [3] => 40
+                    [4] => 50
+                )
+
+            [HeroExpReward] => Hero_T02D01
+            [reward] => Array
+                (
+                    [0] => 02D01U0
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/TalentConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => TalentConfig.xlsx
+    [count] => 27
+    [data] => Array
+        (
+            [Id] => 111
+            [IsRoot] => 1
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/DailyReset.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => DailyReset.xlsx
+    [count] => 24
+    [data] => Array
+        (
+            [Id] => 1
+            [type] => 1
+            [factor1] => [1,2,3,4,5,6,7]
+            [factor2] => [5]
+            [init] => 50
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/ResourcesIcon.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => ResourcesIcon.xlsx
+    [count] => 10
+    [data] => Array
+        (
+            [Id] => gold
+            [Segmentation] => Array
+                (
+                    [0] => 1
+                    [1] => 1000
+                    [2] => 10000
+                )
+
+            [LargeIcons] => Array
+                (
+                    [0] => ico_gold_1
+                    [1] => ico_gold_2
+                    [2] => ico_gold_3
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/HeroExp.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => HeroExp.xlsx
+    [count] => 100
+    [data] => Array
+        (
+            [Id] => 1
+            [needexp] => 30
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/《KOF》数值表定义.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => 《KOF》数值表定义.xlsx
+    [count] => 0
+    [data] =>
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/ComboEnemy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => ComboEnemy.xlsx
+    [count] => 180
+    [data] => Array
+        (
+            [Id] => T01D01U01N01
+            [type] => dps
+            [quality] => 2
+            [level] => 31
+            [sex] => 1
+            [normalattack] => N001
+            [skill] => None
+            [superskill] => None
+            [passive] => Array
+                (
+                )
+
+            [attack] => 0
+            [defense] => 0
+            [hp] => 3
+            [crit] => 0
+            [uncrit] => 0
+            [critdeepen] => 0
+            [block] => 0
+            [unblock] => 0
+            [blockdeepen] => 0
+            [hurt] => 0
+            [unhurt] => 0
+            [suck] => 0
+            [bramble] => 0
+            [cure] => 0
+            [ctrl] => 0
+            [unctrl] => 0
+            [reward] => T01D01U01N01
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/DrawCard.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => DrawCard.xlsx
+    [count] => 4
+    [data] => Array
+        (
+            [Id] => box1
+            [currency] => 0
+            [consume] => 10000
+            [freeinterval] => 600
+            [freetimes] => 5
+            [number] => 1
+            [reward] => goldbox1
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/Enemy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => Enemy.xlsx
+    [count] => 10634
+    [data] => Array
+        (
+            [Id] => M01P01D01U01N01
+            [type] => dps
+            [quality] => 1
+            [level] => 10
+            [sex] => 1
+            [normalattack] => N001
+            [skill] => None
+            [superskill] => None
+            [passive] => Array
+                (
+                )
+
+            [attack] => 200
+            [defense] => 100
+            [hp] => 3000
+            [crit] => 0.1
+            [uncrit] => 0.1
+            [critdeepen] => 0.1
+            [block] => 0.1
+            [unblock] => 0.1
+            [blockdeepen] => 0.1
+            [hurt] => 0.1
+            [unhurt] => 0.1
+            [suck] => 0.1
+            [bramble] => 0.1
+            [cure] => 0.1
+            [ctrl] => 0.1
+            [unctrl] => 0.1
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/FavourConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => FavourConfig.xlsx
+    [count] => 8
+    [data] => Array
+        (
+            [Id] => team1
+            [heroId] => Array
+                (
+                    [0] => 100001
+                    [1] => 100005
+                    [2] => 100021
+                )
+
+            [itemlist] => Array
+                (
+                    [0] => 204001
+                    [1] => 204002
+                    [2] => 204003
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/VipConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => VipConfig.xlsx
+    [count] => 16
+    [data] => Array
+        (
+            [Id] => 0
+            [NeedDiamond] => 0
+            [VipReward] =>
+            [ViewVipLevel] => 7
+            [VipInitPrice] => 0
+            [VipPrice] => 0
+            [NobleChat] => 0
+            [SweeperAmount] => 0
+            [BuySkillpointNum] => 0
+            [GoldExchangeNum] => 0
+            [PointChargeNum] => 0
+            [EliteChargeNum] => 0
+            [ComboChargeNum] => 0
+            [GoldChargeNum] => 0
+            [FemaleChargeNum] => 0
+            [IdolChargeNum] => 0
+            [HeroFragShop] => 0
+            [EquipFragshop] => 0
+            [TowerChargeNum] => 0
+            [LadderChargenumber] => 10
+            [crit] => Array
+                (
+                    [0] => 20
+                    [1] => 3
+                    [2] => 1
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/Background.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => Background.xlsx
+    [count] => 66
+    [data] => Array
+        (
+            [Id] => BG01
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/PlayerHeadModel.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => PlayerHeadModel.xlsx
+    [count] => 5
+    [data] => Array
+        (
+            [Id] => p001
+            [eventType] => 0
+            [condition] => level
+            [vipLevel] => 0
+            [targetvalue] => 1
+            [factor1] =>
+            [factor2] =>
+            [factor3] =>
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/GoldEnemyArmy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => GoldEnemyArmy.xlsx
+    [count] => 6
+    [data] => Array
+        (
+            [Id] => T02D01U01
+            [speed] => 1
+            [enemies] => Array
+                (
+                    [0] => None
+                    [1] => None
+                    [2] => None
+                    [3] => None
+                    [4] => T02D01U01N05
+                    [5] => None
+                )
+
+            [effects] => Array
+                (
+                )
+
+            [enemyType] => BOSS
+            [reward] => Array
+                (
+                    [0] => T02D01U01_1
+                    [1] => T02D01U01_2
+                    [2] => T02D01U01_3
+                    [3] => T02D01U01_4
+                    [4] => T02D01U01_5
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/ComboBlock.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => ComboBlock.xlsx
+    [count] => 6
+    [data] => Array
+        (
+            [Id] => T01D01
+            [difficulty] => 1
+            [level] => 30
+            [playernum] => 20
+            [maxday] => 3
+            [army] => Array
+                (
+                    [0] => T01D01U01
+                    [1] => T01D01U02
+                    [2] => T01D01U03
+                    [3] => T01D01U04
+                    [4] => T01D01U05
+                )
+
+            [cost] => 10
+            [scorejudge] => {"SSS":1000,"SS":800,"S":600,"A":400,"B":300,"C":200,"D":100}
+            [itemlist] => Array
+                (
+                    [0] => 200004
+                    [1] => 200005
+                    [2] => 200006
+                    [3] => 300001
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/HeroBase.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => HeroBase.xlsx
+    [count] => 32
+    [data] => Array
+        (
+            [Id] => 100001
+            [ifHidden] => 1
+            [teamid] => team1
+            [sex] => 1
+            [growvalue] => 13
+            [type] => tank
+            [quality] => 10
+            [star] => 7
+            [leveluprate] => 1.3
+            [staruprate] => Array
+                (
+                    [0] => 10
+                    [1] => 20
+                    [2] => 40
+                    [3] => 80
+                    [4] => 160
+                    [5] => 320
+                    [6] => 640
+                )
+
+            [starmoney] => Array
+                (
+                    [0] => 10000
+                    [1] => 50000
+                    [2] => 100000
+                    [3] => 200000
+                    [4] => 400000
+                    [5] => 600000
+                )
+
+            [typechange] => dark
+            [relationList] => Array
+                (
+                    [0] => 100001_1
+                    [1] => 100001_2
+                    [2] => 100001_3
+                    [3] => 100001_4
+                    [4] => 100001_5
+                    [5] => 100001_6
+                )
+
+            [itemid] => 300001
+            [normalskill] => N001
+            [skill] => hero001_a1
+            [superskill] => hero001_a2
+            [passive] => Array
+                (
+                    [0] => hero001_p1
+                    [1] => hero001_p2
+                )
+
+            [attacknum] => 200
+            [defensenum] => 100
+            [lifenum] => 400
+            [attack] => 1.15
+            [defense] => 1.4
+            [hp] => 1.4
+            [bishadamage] => 0
+            [crit] => 0
+            [uncrit] => 0
+            [critdeepen] => 0
+            [block] => 0
+            [unblock] => 0
+            [blockdeepen] => 0
+            [hurt] => 0
+            [unhurt] => 0
+            [suck] => 0
+            [bramble] => 0
+            [cure] => 0
+            [ctrl] => 0
+            [unctrl] => 0
+            [perfectvalue] => 0.2
+            [greatvalue] => 0.4
+            [goodvalue] => 1
+            [bad] => 1
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/GirlBlock.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => GirlBlock.xlsx
+    [count] => 6
+    [data] => Array
+        (
+            [Id] => T03D01
+            [difficulty] => 1
+            [openlevel] => 35
+            [army] => Array
+                (
+                    [0] => T03D01U01
+                    [1] => T03D01U02
+                    [2] => T03D01U03
+                )
+
+            [cost] => 10
+            [maxroundnum] => 5
+            [scorejudge] => {"SSS":1000,"SS":800,"S":600,"A":400,"B":300,"C":200,"D":100}
+            [itemlist] => Array
+                (
+                    [0] => 200004
+                    [1] => 200005
+                    [2] => 200006
+                    [3] => 300001
+                )
+
+            [HeroExpReward] => Hero_T03D01
+            [reward] => Array
+                (
+                    [0] => T03D01U01
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/FightingEffectConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/ConfigValue.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => ConfigValue.xlsx
+    [count] => 123
+    [data] => Array
+        (
+            [Id] => Player_init_heros
+            [content] => [1:100023,2:100007,3:100025]
+            [clz] => string[]
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/HeroQualityRate.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => HeroQualityRate.xlsx
+    [count] => 13
+    [data] => Array
+        (
+            [Id] => 10
+            [quality] => 1
+            [level] => 0
+            [qualityratio] => 2
+            [qualitybasenum] => 100
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/ArtifactConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => ArtifactConfig.xlsx
+    [count] => 5
+    [data] => Array
+        (
+            [Id] => Artifact1
+            [condition] => Array
+                (
+                    [0] => A01T01
+                    [1] => A01T02
+                    [2] => A01T03
+                    [3] => A01T04
+                    [4] => A01T05
+                )
+
+            [type] => Array
+                (
+                    [0] => attack
+                    [1] => defense
+                    [2] => hp
+                    [3] => crit
+                    [4] => uncrit
+                )
+
+            [itemid] => 201001
+            [skilllevel] => 10
+            [effect] => Array
+                (
+                    [0] => Artifact101
+                    [1] => Artifact102
+                )
+
+            [pos] => 1
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/EliteEnemy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => EliteEnemy.xlsx
+    [count] => 378
+    [data] => Array
+        (
+            [Id] => M01E01U01N01
+            [type] => dps
+            [quality] => 2
+            [level] => 31
+            [sex] => 1
+            [normalattack] => N001
+            [skill] => None
+            [superskill] => None
+            [passive] => Array
+                (
+                )
+
+            [attack] => 100
+            [defense] => 100
+            [hp] => 100
+            [crit] => 0
+            [uncrit] => 0
+            [critdeepen] => 0
+            [block] => 0
+            [unblock] => 0
+            [blockdeepen] => 0
+            [hurt] => 0
+            [unhurt] => 0
+            [suck] => 0
+            [bramble] => 0
+            [cure] => 0
+            [ctrl] => 0
+            [unctrl] => 0
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/Challenge.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => Challenge.xlsx
+    [count] => 5
+    [data] => Array
+        (
+            [Id] => ComboBlock
+            [BlockClass] => ComboBlock
+            [itemlist] => Array
+                (
+                    [0] => 200004
+                    [1] => 200005
+                    [2] => 200006
+                    [3] => 300001
+                )
+
+            [actionPoint] => 10
+            [CD] => 600
+            [open_type] => week
+            [OpenDate] => Array
+                (
+                    [0] => 1
+                    [1] => 2
+                    [2] => 3
+                    [3] => 4
+                    [4] => 5
+                    [5] => 6
+                    [6] => 7
+                )
+
+            [isOpen] => 1
+            [ShowIndex] => 1
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/ArtifactUplevel.xlsx -v 100 -s ~/success.log -e ~/error.log
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/GirlEnemyArmy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => GirlEnemyArmy.xlsx
+    [count] => 18
+    [data] => Array
+        (
+            [Id] => T03D01U01
+            [speed] => 0
+            [enemies] => Array
+                (
+                    [0] => None
+                    [1] => None
+                    [2] => None
+                    [3] => None
+                    [4] => T03D01U01N05
+                    [5] => None
+                )
+
+            [effects] => Array
+                (
+                )
+
+            [enemyType] => NORMAL
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/BuyGold.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => BuyGold.xlsx
+    [count] => 100
+    [data] => Array
+        (
+            [Id] => 1
+            [costDiamond] => 2
+            [money] => 26000
+            [crit] => Array
+                (
+                    [0] => 20
+                    [1] => 3
+                    [2] => 1
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/AdvanceNumUpLevel.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => AdvanceNumUpLevel.xlsx
+    [count] => 297
+    [data] => Array
+        (
+            [Id] => Advance_1_1
+            [name] => Advance_1
+            [level] => 1
+            [consume] => 3
+            [type] => Array
+                (
+                    [0] => 10
+                    [1] => 0
+                    [2] => 0
+                )
+
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/StoryConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => StoryConfig.xlsx
+    [count] => 2
+    [data] => Array
+        (
+            [Id] => S01
+            [Condition] => {"x":"y"}
+            [Actions] => Array
+                (
+                    [0] => S01A01
+                )
+
+            [Next] => S02
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/EquipBase.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => EquipBase.xlsx
+    [count] => 58
+    [data] => Array
+        (
+            [Id] => 500001
+            [type] => 1
+            [consumrate] => 25.2
+            [firsttype] => attack
+            [firstnum] => 455
+            [growvalue1] => 45
+            [secondtype] =>
+            [secondnum] => 0
+            [growvalue2] => 0
+            [relationlist] => Array
+                (
+                    [0] => 100003
+                )
+
+            [pieceamount] => 100
+            [itemexp] => 0
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/RoleModel.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => RoleModel.xlsx
+    [count] => 52
+    [data] => Array
+        (
+            [Id] => 100001
+            [Tag] => chenguohan
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/FightingFormula.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => FightingFormula.xlsx
+    [count] => 0
+    [data] =>
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/TaskConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => TaskConfig.xlsx
+    [count] => 97
+    [data] => Array
+        (
+            [Id] => daily1
+            [taskType] => 1
+            [eventType] => 1
+            [condition] =>
+            [vipLevel] => 0
+            [reward] => stamina
+            [next] => Array
+                (
+                    [0] => daily19
+                )
+
+            [isstarttask] => 1
+            [openLevel] => 0
+            [ordernum] => 1
+            [serverkey] => time
+            [usefactors] => 2
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/ComboEnemyArmy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => ComboEnemyArmy.xlsx
+    [count] => 30
+    [data] => Array
+        (
+            [Id] => T01D01U01
+            [speed] => 1
+            [enemies] => Array
+                (
+                    [0] => T01D01U01N01
+                    [1] => T01D01U01N02
+                    [2] => T01D01U01N03
+                    [3] => T01D01U01N04
+                    [4] => T01D01U01N05
+                    [5] => T01D01U01N06
+                )
+
+            [effects] => Array
+                (
+                )
+
+            [enemyType] => NORMAL
+            [roundnum] => 3
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/EliteBlock.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => EliteBlock.xlsx
+    [count] => 21
+    [data] => Array
+        (
+            [Id] => M01E01
+            [mapId] => M01
+            [starnum] => 6
+            [army] => Array
+                (
+                    [0] => M01E01U01
+                    [1] => M01E01U02
+                    [2] => M01E01U03
+                )
+
+            [cost] => 20
+            [itemList] => Array
+                (
+                    [0] => 200004
+                    [1] => 200005
+                    [2] => 200006
+                    [3] => 201001
+                )
+
+            [reward] => M01E01
+            [HeroExpReward] => Hero_M01E01
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/FightingSkillConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => FightingSkillConfig.xlsx
+    [count] => 545
+    [data] => Array
+        (
+            [Id] => DirectDamege
+            [type] => 1
+            [effects] => Array
+                (
+                    [0] => Test_DirectDamege
+                )
+
+            [descType] => 3
+            [moneycostrate] => 0
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/HeroStarEffect.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => HeroStarEffect.xlsx
+    [count] => 224
+    [data] => Array
+        (
+            [Id] => se100001_1
+            [heroId] => 100001
+            [star] => 1
+            [skill] =>
+            [enable] => 0
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/MirrorEnemy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => MirrorEnemy.xlsx
+    [count] => 72
+    [data] => Array
+        (
+            [Id] => T04D01U01N01
+            [type] => dps
+            [quality] => 1
+            [level] => 30
+            [sex] => 1
+            [normalattack] => None
+            [skill] => None
+            [superskill] => None
+            [passive] => Array
+                (
+                )
+
+            [attack] => 0
+            [defense] => 0
+            [hp] => 144000
+            [crit] => 0
+            [uncrit] => 0
+            [critdeepen] => 0
+            [block] => 0
+            [unblock] => 0
+            [blockdeepen] => 0
+            [hurt] => 0
+            [unhurt] => 0
+            [suck] => 0
+            [bramble] => 0
+            [cure] => 0
+            [ctrl] => 0
+            [unctrl] => 0
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/GirlEnemy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => GirlEnemy.xlsx
+    [count] => 18
+    [data] => Array
+        (
+            [Id] => T03D01U01N05
+            [type] => dps
+            [quality] => 1
+            [level] => 30
+            [sex] => 1
+            [normalattack] => None
+            [skill] => None
+            [superskill] => None
+            [passive] => Array
+                (
+                )
+
+            [attack] => 0
+            [defense] => 0
+            [hp] => 10000
+            [crit] => 0
+            [uncrit] => 0
+            [critdeepen] => 0
+            [block] => 0
+            [unblock] => 0
+            [blockdeepen] => 0
+            [hurt] => 0
+            [unhurt] => 0
+            [suck] => 0
+            [bramble] => 0
+            [cure] => 0
+            [ctrl] => 0
+            [unctrl] => 0
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/LevelConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => LevelConfig.xlsx
+    [count] => 99
+    [data] => Array
+        (
+            [Id] => 1
+            [PlayerExp] => 50
+            [ArmySize] => 2
+            [GetActionPoint] => 20
+            [ActionPointLimit] => 60
+            [LevelUpReward] => levelupreward01
+            [OpenSystem] => maintask
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/BlockEnemy.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => BlockEnemy.xlsx
+    [count] => 592
+    [data] => Array
+        (
+            [Id] => M01P01D01
+            [difficult] => 1
+            [army] => Array
+                (
+                    [0] => M01P01D01U01
+                    [1] => M01P01D01U02
+                )
+
+            [howtowin] => ALLKILL
+            [goldreward] => 350
+            [onceReward] => M01P01
+            [rewardTimes] => Array
+                (
+                    [0] => 1
+                    [1] => 3
+                )
+
+            [firstKillReward] => talent20
+            [wipeExtraReward] => M01_wipeExtraReward
+            [herodeathnum] => 0
+            [roundnum] => 20
+            [perfectpercent] => 60
+            [HeroExpReward] => M01_HeroExpReward
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/RewardConfig.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => RewardConfig.xlsx
+    [count] => 1471
+    [data] => Array
+        (
+            [Id] => EMPTY
+            [randomtype] => FIXED
+            [fixed] => []
+        )
+
+)
+php ~/numerictool/NumericTool.php -t 1 -f /data/work/testnumeric/BlockMap.xlsx -v 100 -s ~/success.log -e ~/error.log
+Array
+(
+    [_class] => data.presistence.DataSettingEntity
+    [settingName] => BlockMap.xlsx
+    [count] => 21
+    [data] => Array
+        (
+            [Id] => M01
+            [eliteId] => M01E01
+            [openLevel] => 1
+            [subpoint] => Array
+                (
+                    [0] => M01P01
+                    [1] => M01P02
+                    [2] => M01P03
+                    [3] => M01P04
+                    [4] => M01P05
+                    [5] => M01P06
+                )
+
+            [buildingID] => {"2":"Building1","4":"Building1","6":"Building1"}
+            [route] => Route1
+            [starBoxReward] => {"2":"M01BOX01","4":"M01BOX02","6":"M01BOX03"}
+        )
+
+)
